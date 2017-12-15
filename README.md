@@ -1,10 +1,18 @@
-# opensphere-state-schema
+# Schema for OpenSphere state files
 
-12/6/2017
+XSD Schema for validating state files.
+
+Please coordinate all changes to the state related xsd files with both the MIST Web and MIST desktop teams.
+
+NOTE: The package.json version should be updated with each change. Please see npm version guidlines.
+
+"npm version patch" will increment the patch version by one from the command line. Package deployment should be
+done using the Jenkins job.
+
 
 ## About
 
-OpenSphere was developed at the National Geospatial-Intelligence Agency (NGA) in collaboration with BIT Systems. The government has "unlimited rights" and is releasing this software to increase the impact of government investments by providing developers with the opportunity to take things in new directions. The software use, modification, and distribution rights are stipulated within the Apache license.
+OpenSphere ([web](https://github.com/ngageoint/opensphere) and [desktop](https://github.com/ngageoint/opensphere-desktop)) was developed at the National Geospatial-Intelligence Agency (NGA) in collaboration with BIT Systems. The government has "unlimited rights" and is releasing this software to increase the impact of government investments by providing developers with the opportunity to take things in new directions. The software use, modification, and distribution rights are stipulated within the Apache license.
 
 ## Pull Requests
 
