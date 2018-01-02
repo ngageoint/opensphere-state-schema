@@ -39,7 +39,7 @@
   "name": "opensphere-state-schema",
   "scripts": {
     "package:update": "if git diff --name-only ORIG_HEAD HEAD | grep --quiet package.json; then npm update && npm install; fi",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "for i in src/main/xsd/*/*/*.xsd; do xmllint $i > out.log && echo \"valid XSD: $i\" || (echo \"bad XSD: $i\"; exit 1); done"
   },
   "version": "2.0.6"
 }
