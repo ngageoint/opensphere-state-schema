@@ -4,7 +4,7 @@ XSD Schema for validating state files.
 
 Please coordinate all changes to the state related xsd files with both the MIST Web and MIST desktop teams.
 
-NOTE: The package.json version should be updated with each change. Please see npm version guidlines.
+NOTE: The package.json version should be updated with each change. Please see npm version guidelines.
 
 "npm version patch" will increment the patch version by one from the command line. Package deployment should be
 done using the Jenkins job.
