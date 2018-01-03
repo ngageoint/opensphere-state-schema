@@ -46,7 +46,7 @@
             </xs:annotation>
           </xs:attribute>
           <!--  This value might be better represented by an enum, but was not
-                100% sure of all the possible values, single, and spaital I
+                100% sure of all the possible values, single, and spatial I
                 think, but suspect there are others. -->
           <xs:attribute name="filterType" type="xs:token">
             <xs:annotation>

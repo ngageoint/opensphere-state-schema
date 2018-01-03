@@ -13,7 +13,7 @@
    <xs:element name="state" type="fade:StateType">
     <xs:annotation>
       <xs:documentation xml:lang="en" xml:space="preserve">
-        A saved state is used to preserve the state of a FADE tool, to allow
+        A saved state is used to preserve the state of an OpenSphere tool, to allow
         others to see the same viewpoint and data sets, and to allow a user to
         resume working where they left off. The state includes camera look
         angles and locations, animation and temporal information, data layers
@@ -25,7 +25,7 @@
   <xs:complexType name="StateType">
     <xs:annotation>
       <xs:documentation xml:lang="en" xml:space="preserve">
-        A saved state is used to preserve the state of a FADE tool, to allow
+        A saved state is used to preserve the state of an OpenSphere tool, to allow
         others to see the same viewpoint and data sets, and to allow a user to
         resume working where they left off. The state includes camera look
         angles and locations, animation and temporal information, data layers
@@ -484,7 +484,7 @@
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
             If activated, features older than then ageOff time
-            should be removed from the dispay.
+            should be removed from the display.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -501,7 +501,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-            Flag for the stremaing state, e.g. is playing/ is streaming.
+            Flag for the streaming state, e.g. is playing / is streaming.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -520,7 +520,7 @@
       <xs:documentation xml:lang="en" xml:space="preserve">
         A layer is defined as a single source of data, either base maps, or
         features, or another data type. The layer type contains information
-        needed to load a information into a FADE tool for the saved state, and
+        needed to load a information into an OpenSphere tool for the saved state, and
         may be referenced by its 'id' child tag. The value of the child 'id'
         tag must be unique within the saved state.
       </xs:documentation>
@@ -1148,7 +1148,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-             Flag to indcate if this layer can be used
+             Flag to indicate if this layer can be used
               for data analytics.
           </xs:documentation>
         </xs:annotation>
@@ -1158,7 +1158,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-            Alternate image url for a layer, added to support omar layers
+            Alternate image URL for a layer, added to support OMAR layers.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -1184,7 +1184,7 @@
       <xs:element name="urls" type="fade:UrlsType" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-            List of alternate servers providing same service
+            List of alternate servers providing same service.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -1192,7 +1192,7 @@
       <xs:element name="projection" type="xs:token" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-            The layer projection. If not present assume EPSG:4326
+            The layer projection. If not present, assume EPSG:4326.
           </xs:documentation>
         </xs:annotation>
      </xs:element>
@@ -1237,7 +1237,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-            Optional orginal url reference
+            Optional original URL reference.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -1504,7 +1504,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-            An optional description field for a query area
+            An optional description field for a query area.
           </xs:documentation>
         </xs:annotation>
        </xs:element>
@@ -1513,7 +1513,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-            An optional tags field for a query area
+            An optional tags field for a query area.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -2142,7 +2142,7 @@
         minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-           Whether to set the recordTime
+           Whether to set the recordTime.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -2160,7 +2160,7 @@
         minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-           Flag that the orginal (un-coverted) value is stored.
+           Flag that the original (unconverted) value is stored.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -2178,7 +2178,7 @@
         minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-           Type modifier, e.g. start date/ End date.
+           Type modifier, e.g. start date/ end date.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -2420,7 +2420,7 @@
         <!--
             The xsd pattern match syntax seems to have some limits .
             It does not have the special starts with/ ends with
-            qualifires, so this will match things like
+            qualifiers, so this will match things like
             "1347dd". For this use case, this is probably ok.
         -->
         <xs:pattern value="((-)?(Infinity))|((-)?(\d)+(\.)?(\d)+)" />
@@ -2437,7 +2437,7 @@
          <!--
             The xsd pattern match syntax seems to have some limits .
             It does not have the special starts with/ ends with
-            qualifires, so this will match things like
+            qualifiers, so this will match things like
             "1347dd". For this use case, this is probably ok.
         -->
         <xs:pattern value="((-)?(Infinity))|((-)?(\d)+)" />
@@ -2454,7 +2454,7 @@
          <!--
             The xsd pattern match syntax seems to have some limits .
             It does not have the special starts with/ ends with
-            qualifires, so this will match things like
+            qualifiers, so this will match things like
             "1347dd". For this use case, this is probably ok.
         -->
         <xs:pattern value="((-)?(Infinity))|((\d)+)" />
@@ -2563,7 +2563,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-            Vaue part of a name value pair.
+            Value part of a name value pair.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
