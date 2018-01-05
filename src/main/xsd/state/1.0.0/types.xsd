@@ -117,6 +117,8 @@
       <xs:enumeration value="Ellipse with Center" />
       <xs:enumeration value="Selected Ellipse" />
       <xs:enumeration value="Selected Ellipse with Center" />
+      <xs:enumeration value="Line of Bearing" />
+      <xs:enumeration value="Line of Bearing with Center" />
     </xs:restriction>
   </xs:simpleType>
 
