@@ -1,0 +1,31 @@
+# Build Output #
+################
+dist/
+
+# Dependencies #
+################
+node_modules/
+
+# Logs #
+########
+logs
+*.log
+npm-debug.log*
+
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
