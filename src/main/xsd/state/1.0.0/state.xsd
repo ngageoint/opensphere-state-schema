@@ -1112,7 +1112,7 @@
       <xs:element name="projection" type="xs:token" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-            The layer projection. If not present assume EPSG:4326.
+            The layer projection. If not present, assume EPSG:4326.
           </xs:documentation>
         </xs:annotation>
      </xs:element>
@@ -2071,7 +2071,7 @@
         minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-           Flag that the original (uncoverted) value is stored.
+           Flag that the original (unconverted) value is stored.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
