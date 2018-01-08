@@ -1069,7 +1069,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-            Refersh rate for the layer.
+            Refresh rate for the layer.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -1157,7 +1157,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-            Optional orginal URL reference.
+            Optional original URL reference.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -2071,7 +2071,7 @@
         minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-           Flag that the orginal (uncoverted) value is stored.
+           Flag that the original (uncoverted) value is stored.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -2324,7 +2324,7 @@
   <xs:simpleType name="FloatType">
     <xs:annotation>
       <xs:documentation xml:lang="en" xml:space="preserve">
-        Specalized float data type that also allows "Infinity".
+        Specialized float data type that also allows "Infinity".
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:token">
@@ -2341,7 +2341,7 @@
   <xs:simpleType name="IntegerType">
     <xs:annotation>
       <xs:documentation xml:lang="en" xml:space="preserve">
-        Specalized integer data type that also allows "Infinity".
+        Specialized integer data type that also allows "Infinity".
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:token">
@@ -2358,7 +2358,7 @@
    <xs:simpleType name="PositiveIntegerType">
     <xs:annotation>
       <xs:documentation xml:lang="en" xml:space="preserve">
-        Specalized positive integer data type that also allows "Infinity".
+        Specialized positive integer data type that also allows "Infinity".
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:token">
