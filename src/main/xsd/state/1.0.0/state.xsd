@@ -627,6 +627,15 @@
         </xs:annotation>
       </xs:element>
 
+      <xs:element name="rotationColumn" type="xs:token" minOccurs="0"
+        maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
       <xs:element name="showArrow" type="xs:boolean" minOccurs="0"
         maxOccurs="1">
         <xs:annotation>
@@ -664,6 +673,15 @@
       </xs:element>
 
       <xs:element name="showGroundRef" type="xs:boolean" minOccurs="0"
+        maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <xs:element name="showRotation" type="xs:boolean" minOccurs="0"
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
