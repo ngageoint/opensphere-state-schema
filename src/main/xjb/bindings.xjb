@@ -24,7 +24,32 @@
       <jaxb:class name="AtomName" />
     </jaxb:bindings>
   </jaxb:bindings>
+
+  <jaxb:bindings schemaLocation="../xsd/kml/2.3/ogckml23.xsd"
+    node="/xs:schema">
+    <jaxb:schemaBindings>
+      <jaxb:package name="net.opengis.kml.v_2_3" />
+    </jaxb:schemaBindings>
+    <jaxb:bindings node="//xs:element[@name='scale']">
+      <jaxb:class name="ScaleScalar" />
+    </jaxb:bindings>
+
+    <jaxb:bindings node="//xs:element[@name='Snippet']">
+      <jaxb:class name="ASnippetElement" />
+    </jaxb:bindings>
+  </jaxb:bindings>
   
+  <jaxb:bindings schemaLocation="../xsd/kml/2.3.0/atom-author-link.xsd"
+    node="/xs:schema">
+    <jaxb:schemaBindings>
+      <jaxb:package name="net.opengis.kml.v_2_3" />
+    </jaxb:schemaBindings>
+
+    <jaxb:bindings node="xs:element[@name='name']">
+      <jaxb:class name="AtomName" />
+    </jaxb:bindings>
+  </jaxb:bindings>
+
   <jaxb:bindings schemaLocation="../xsd/state/1.0.0/state.xsd"
     node="/xs:schema">
     <jaxb:schemaBindings>
