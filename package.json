@@ -41,5 +41,5 @@
     "package:update": "if git diff --name-only ORIG_HEAD HEAD | grep --quiet package.json; then npm update && npm install; fi",
     "test": "for i in src/main/xsd/*/*/*.xsd; do xmllint $i > out.log && echo \"valid XSD: $i\" || (echo \"bad XSD: $i\"; exit 1); done"
   },
-  "version": "2.0.7"
+  "version": "2.0.8"
 }

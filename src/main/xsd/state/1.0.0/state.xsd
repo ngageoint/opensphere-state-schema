@@ -482,7 +482,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            If altitude should be used.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -500,7 +500,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            The size of each of the 2 lines in the arrowhead for the line of bearing.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -509,7 +509,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            Units of the arrowhead size.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -518,7 +518,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            Column used to define the bearing used in a line of bearing.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -528,7 +528,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            Multiplier on the bearing error of a line of bearing.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -537,7 +537,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            Column used to define the bearing error used in a line of bearing.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -546,7 +546,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            Integer length of a line of bearing.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -555,7 +555,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            Multiplier on the length of a line of bearing.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -564,7 +564,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            Multiplier on the length error of a line of bearing.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -573,7 +573,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            Column used to define the length of a line of bearing.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -582,7 +582,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            Column used to define the length error of a line of bearing.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -591,7 +591,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            Type of length to use for line of bearing length. (manual or column)
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -600,7 +600,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            Units used on the length of a line of bearing.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -609,7 +609,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            Units of the line of bearing length error.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -618,7 +618,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            Column to used to define how much an icon should be rotated.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -627,7 +627,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            If an arrow should be drawn on a line of bearing.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -636,7 +636,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            If ellipses should be drawn in addition to a line of bearing.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -645,7 +645,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            If error should be shown on a line of bearng.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -654,7 +654,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            If ellipses should be rendered as ellipsoids in 3D.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -663,7 +663,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            If ellipses should get a line showing ground reference in 3D.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -672,7 +672,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            If icons should be rotated.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -1008,7 +1008,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            The feature shape name.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -1017,7 +1017,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            The feature center shape name.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -2705,6 +2705,24 @@
             </xs:annotation>
           </xs:element>
 
+          <xs:element name="showRotation" type="xs:boolean" minOccurs="0"
+            maxOccurs="1">
+            <xs:annotation>
+              <xs:documentation xml:lang="en" xml:space="preserve">
+                If icons should be rotated.
+              </xs:documentation>
+            </xs:annotation>
+          </xs:element>
+
+          <xs:element name="rotationColumn" type="xs:token" minOccurs="0"
+            maxOccurs="1">
+            <xs:annotation>
+              <xs:documentation xml:lang="en" xml:space="preserve">
+                Column to used to define how much an icon should be rotated.
+              </xs:documentation>
+            </xs:annotation>
+          </xs:element>
+
           <xs:element name="shape" type="fade:ShapeType"
               minOccurs="0" maxOccurs="1">
             <xs:annotation>
@@ -2718,7 +2736,7 @@
               minOccurs="0" maxOccurs="1">
             <xs:annotation>
               <xs:documentation xml:lang="en" xml:space="preserve">
-                The feature ellipse center shape.
+                The feature center shape.
               </xs:documentation>
             </xs:annotation>
           </xs:element>
