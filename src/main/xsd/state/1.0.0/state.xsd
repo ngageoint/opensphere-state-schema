@@ -514,6 +514,34 @@
         </xs:annotation>
       </xs:element>
 
+      <xs:element name="brightness" type="xs:decimal" minOccurs="0"
+        maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+            Brightness for raster layers from -1 (black), to 1 (white). 0 is unchanged.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <xs:element name="contrast" type="xs:decimal" minOccurs="0"
+        maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+            Contrast for raster layers from 0 to 2
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <xs:element name="saturation" type="xs:decimal" minOccurs="0"
+        maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+            Saturation for raster layers from 0 to 1
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+
       <xs:element name="lobBearingColumn" type="xs:token" minOccurs="0"
         maxOccurs="1">
         <xs:annotation>
