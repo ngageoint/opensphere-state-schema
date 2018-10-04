@@ -487,6 +487,15 @@
         </xs:annotation>
       </xs:element>
 
+      <xs:element name="altitudeMode" type="fade:AltitudeModeType" minOccurs="0"
+        maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+            The altitude mode used for 3D rendering.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
       <xs:element name="animate" type="xs:token" minOccurs="0"
         maxOccurs="1">
         <xs:annotation>

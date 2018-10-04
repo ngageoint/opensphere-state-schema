@@ -5,6 +5,22 @@
   elementFormDefault="qualified"
   attributeFormDefault="qualified">
 
+  <xs:simpleType name="AltitudeModeType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en" xml:space="preserve">
+       Altitude modes supported by 3D renderers.
+      </xs:documentation>
+    </xs:annotation>
+
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="absolute" />
+      <xs:enumeration value="clampToGround" />
+      <xs:enumeration value="clampToSeaFloor" />
+      <xs:enumeration value="relativeToGround" />
+      <xs:enumeration value="relativeToSeaFloor" />
+    </xs:restriction>
+  </xs:simpleType>
+
   <xs:simpleType name="HexColorType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
