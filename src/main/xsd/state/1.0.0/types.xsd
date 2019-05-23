@@ -138,6 +138,32 @@
     </xs:restriction>
   </xs:simpleType>
 
+  <xs:complexType name="TimeIntervalType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en" xml:space="preserve">
+        A part-of-day time interval.
+      </xs:documentation>
+    </xs:annotation>
+
+    <xs:sequence>
+      <xs:element name="intervalStart">
+        <xs:simpleType>
+          <xs:restriction base="xs:unsignedLong">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="86400000"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="intervalEnd">
+        <xs:simpleType>
+          <xs:restriction base="xs:unsignedLong">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="86400000"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
 </xs:schema>
 
 
