@@ -1681,6 +1681,15 @@
         </xs:annotation>
       </xs:element>
 
+      <xs:element name="slices" type="fade:SlicesType"
+        minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+            Defines part-of-day intervals (less than 24 hours) in which data is loaded for each day in the load interval.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
       <xs:element name="duration" type="xs:token" minOccurs="0"
         maxOccurs="1">
         <xs:annotation>
@@ -2960,4 +2969,26 @@
     </xs:sequence>
   </xs:complexType>
 
+  <xs:complexType name="SlicesType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en" xml:space="preserve">
+        A container in which multiple part-of-day intervals may be defined.
+      </xs:documentation>
+    </xs:annotation>
+
+    <xs:sequence>
+      <xs:element name="slice" type="fade:SliceType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="SliceType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en" xml:space="preserve">
+        A container in which a part-of-day interval may be defined.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="sliceInterval" type="fade:TimeIntervalType"/>
+    </xs:sequence>
+  </xs:complexType>
 </xs:schema>
