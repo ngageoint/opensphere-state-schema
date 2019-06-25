@@ -1663,6 +1663,15 @@
         </xs:annotation>
       </xs:element>
 
+      <xs:element name="lock" type="xs:boolean"
+        minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+            A flag used to indicate if the timeline lock is set.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
       <xs:element name="advance" type="xs:token" minOccurs="1"
         maxOccurs="1">
         <xs:annotation>
