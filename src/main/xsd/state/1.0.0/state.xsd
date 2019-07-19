@@ -1941,6 +1941,24 @@
         </xs:annotation>
       </xs:element>
 
+      <xs:element name="fillColor" type="fade:HexColorType"
+        minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+            The feature fill color
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <xs:element name="fillOpacity" type="fade:DecimalPercentageType"
+          minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+            The feature fill opacity, in the range [0, 1].
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
       <xs:element name="labelColor" type="fade:HexColorType"
         minOccurs="0" maxOccurs="1">
         <xs:annotation>
