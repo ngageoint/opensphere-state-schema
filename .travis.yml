@@ -4,10 +4,10 @@ before_install:
 language: node_js
 sudo: false
 node_js:
-  - "6"
-  - "node"
-  - "lts/*"
+  - stable
 install:
   - npm install
 test:
-  - npm test
+  - npm run test
+after_success:
+  - npm run semantic-release
