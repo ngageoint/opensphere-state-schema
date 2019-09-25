@@ -1,6 +1,6 @@
 {
   "name": "opensphere-state-schema",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "OpenSphere state file schema",
   "main": "none",
   "directories": {
