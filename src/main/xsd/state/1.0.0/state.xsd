@@ -1672,6 +1672,24 @@
         </xs:annotation>
       </xs:element>
 
+      <xs:element name="autoConfigure" type="xs:boolean"
+        minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+            A flag used to indicate if the timeline should auto configure duration, window, and skip.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <xs:element name="timelineCollapsed" type="xs:boolean"
+        minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+            A flag used to indicate if the timeline should be collapsed.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
       <xs:element name="advance" type="xs:token" minOccurs="1"
         maxOccurs="1">
         <xs:annotation>
@@ -1732,7 +1750,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-
+            A flag used to indicate if the timeline fade is set.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
