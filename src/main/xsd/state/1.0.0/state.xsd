@@ -1690,6 +1690,15 @@
         </xs:annotation>
       </xs:element>
 
+      <xs:element name="visibleRange" type="fade:DateTimeIntervalType"
+        minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+            A date time interval used to represent the visible range on the timeline if the timeline is shown.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
       <xs:element name="advance" type="xs:token" minOccurs="1"
         maxOccurs="1">
         <xs:annotation>
@@ -1750,7 +1759,7 @@
         maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en" xml:space="preserve">
-            A flag used to indicate if the timeline fade is set.
+
           </xs:documentation>
         </xs:annotation>
       </xs:element>
