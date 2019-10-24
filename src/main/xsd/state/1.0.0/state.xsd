@@ -1672,6 +1672,15 @@
         </xs:annotation>
       </xs:element>
 
+      <xs:element name="lockRange" type="fade:DateTimeIntervalType"
+        minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+            A date time interval used to represent the lock range and preserve the original window on the timeline.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
       <xs:element name="autoConfigure" type="xs:boolean"
         minOccurs="0" maxOccurs="1">
         <xs:annotation>
