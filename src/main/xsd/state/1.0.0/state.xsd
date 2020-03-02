@@ -1235,6 +1235,14 @@
         </xs:annotation>
       </xs:element>
 
+      <xs:element name="enabled" type="xs:boolean" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+            A flag used to enable or disable the layer.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
       <xs:element name="visible" type="xs:boolean" minOccurs="1"
         maxOccurs="1">
         <xs:annotation>
