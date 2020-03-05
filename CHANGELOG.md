@@ -1,3 +1,10 @@
+# [2.8.0](https://github.com/ngageoint/opensphere-state-schema/compare/v2.7.0...v2.8.0) (2020-03-05)
+
+
+### Features
+
+* **layer:** add flag to enable/disable layer ([f697d1d](https://github.com/ngageoint/opensphere-state-schema/commit/f697d1d53772991ff7ed27b456cfc29a86dbfba1))
+
 # [2.7.0](https://github.com/ngageoint/opensphere-state-schema/compare/v2.6.0...v2.7.0) (2019-10-25)
 
 
