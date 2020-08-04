@@ -759,6 +759,22 @@
         </xs:annotation>
       </xs:element>
 
+      <xs:element name="groupId" type="xs:token" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+            Field for the layer group ID that the layer belongs to.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <xs:element name="groupLabel" type="xs:token" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+            Field for the label for the group the layer belongs to.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
       <xs:element name="colorizeStyle" type="xs:token" minOccurs="0"
         maxOccurs="1">
         <xs:annotation>
