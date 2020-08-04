@@ -1,3 +1,10 @@
+# [2.9.0](https://github.com/ngageoint/opensphere-state-schema/compare/v2.8.0...v2.9.0) (2020-08-04)
+
+
+### Features
+
+* **layer:** adds support for layer grouping properties ([4b06a28](https://github.com/ngageoint/opensphere-state-schema/commit/4b06a28764ab0239b7958fee06e6795f73f15240))
+
 # [2.8.0](https://github.com/ngageoint/opensphere-state-schema/compare/v2.7.0...v2.8.0) (2020-03-05)
 
 
