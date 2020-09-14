@@ -1,3 +1,10 @@
+# [2.10.0](https://github.com/ngageoint/opensphere-state-schema/compare/v2.9.0...v2.10.0) (2020-09-14)
+
+
+### Features
+
+* **layer:** add layer sharpness property ([ae311e1](https://github.com/ngageoint/opensphere-state-schema/commit/ae311e16464c767f3643773e32f14dd88c5f1a3d))
+
 # [2.9.0](https://github.com/ngageoint/opensphere-state-schema/compare/v2.8.0...v2.9.0) (2020-08-04)
 
 
