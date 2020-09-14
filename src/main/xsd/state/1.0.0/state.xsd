@@ -550,6 +550,15 @@
         </xs:annotation>
       </xs:element>
 
+      <xs:element name="sharpness" type="xs:decimal" minOccurs="0"
+        maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+            Sharpness for raster layers from 0 to 1
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
 
       <xs:element name="lobBearingColumn" type="xs:token" minOccurs="0"
         maxOccurs="1">
