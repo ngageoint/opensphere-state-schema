@@ -1,3 +1,10 @@
+## [2.10.1](https://github.com/ngageoint/opensphere-state-schema/compare/v2.10.0...v2.10.1) (2021-02-16)
+
+
+### Bug Fixes
+
+* **readme:** update readme ([4197ad0](https://github.com/ngageoint/opensphere-state-schema/commit/4197ad0be6d16b1c63514ac2a9b3ad70959df4f9))
+
 # [2.10.0](https://github.com/ngageoint/opensphere-state-schema/compare/v2.9.0...v2.10.0) (2020-09-14)
 
 
