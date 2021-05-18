@@ -1250,6 +1250,14 @@
         </xs:annotation>
       </xs:element>
 
+      <xs:element name="contentType" type="xs:string" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en" xml:space="preserve">
+            The Content-Type header value to use for HTTP POST requests made by this layer.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
       <xs:element name="usePost" type="xs:boolean" minOccurs="0"
         maxOccurs="1">
         <xs:annotation>
