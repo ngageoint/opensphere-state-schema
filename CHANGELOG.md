@@ -1,3 +1,10 @@
+# [2.11.0](https://github.com/ngageoint/opensphere-state-schema/compare/v2.10.1...v2.11.0) (2021-05-18)
+
+
+### Features
+
+* **layer:** add contentType property to layer options ([836074d](https://github.com/ngageoint/opensphere-state-schema/commit/836074d1a01ee62576aca5a735a92373ced9abb2))
+
 ## [2.10.1](https://github.com/ngageoint/opensphere-state-schema/compare/v2.10.0...v2.10.1) (2021-02-16)
 
 
